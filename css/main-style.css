@@ -1,0 +1,263 @@
+.hidden {
+    display: none;
+}
+
+body {background-color: rgb(23, 0, 28);
+    font-family: "San Francisco" ;
+    color:white;
+    padding: 0;
+    margin: 0;
+    font-family: 'Drafter';
+    
+}
+
+
+html, body {
+    height: 100%;
+
+}
+
+header { 
+    background-color: rgb(45, 31, 67);
+    padding: 15px;
+    margin-bottom: -130px;
+    
+}
+
+
+header h1 {
+   
+    text-align: center;
+    display: block;
+}
+#music-logo {
+    cursor: pointer;
+    width: 100px;
+    margin: 0 auto;
+    display: inline;
+    /* box-shadow: -3px 3px 10px #2d2d2d;
+    border-radius: 10px;  */
+}
+
+#artist_nav {
+    background-color: rgb(0, 255, 200);
+    background-image: url('../images/giphy.gif');
+    background-repeat: no-repeat;  
+     /*  background-size: cover;  */
+     /* background-blend-mode:multiply;   */
+    margin-top: -20px;
+    background-size: cover;
+  
+    
+}
+
+.artist {
+    list-style-type: none;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+   
+}
+
+
+
+
+
+
+
+
+.artist li {
+    height: 200px;
+    margin: 20px 20px;
+    cursor: pointer;
+    box-shadow: 0px 120px 0px rgba(0, 0, 0, 0.568) inset; 
+    transition: box-shadow .30s ease-in-out;
+    /* declares the box shadow  */
+    border-radius: 20px;
+    
+  
+}
+
+
+.artist li:hover {
+    box-shadow: 0 220px 0 #00000087 inset;
+   
+
+}
+
+.artist li a {
+    text-decoration: none;
+    
+}
+
+.artist li h5 {
+    color: white;
+    
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+
+article, #instructions { 
+    padding: 20px;
+}
+
+
+article p, #instructions p { 
+    font-size: 18px;
+    text-align: center;
+}
+
+article h3, #instructions h3 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+
+.sprite {
+    width: 150px;
+    height: 150px;
+    background-image: url('../images/sprites_test.jpg');
+    border-radius: 10px 10px 0 0;
+}
+
+
+#drizzy {background-position: -150px 0;}
+#pnd {background-position: -300px 0;}
+#sw     {background-position: -450px 0;}
+#pink {background-position: -600px 0;}
+#breads {background-position: -750px 0;}
+
+
+#rini:hover, #drizzy:hover, #pnd:hover, #sw:hover, #pink:hover, #breads:hover {
+    background-position-y: 150px;
+}
+
+
+@font-face {
+    font-family: 'Drafter';
+    src: local('drafter'), /* Specify the font name for local matching */
+         url('/assets/drafter.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+  footer {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.sticky_footer {
+    height: 80px;
+    position: sticky;
+    top: 100%;
+    
+ }
+
+
+#lightbox1 {
+    background-image: url('../images/lightbox/rini_lb.png');
+}
+
+
+#lightbox2 {
+    background-image: url('../images/lightbox/drake_lb.png');
+    
+ 
+}
+
+#lightbox3{
+    background-image: url('../images/lightbox/pnd_lb.png');
+}
+
+#lightbox4{
+    background-image: url('../images/lightbox/sw_lb.png');
+}
+
+#lightbox5{
+    background-image: url('../images/lightbox/psw_lb.png');
+
+}
+#lightbox6{
+    background-image: url('../images/lightbox/bread_lb.png');
+}
+
+
+
+
+
+ 
+ .lightbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh ;
+    background-color: rgba(0, 0, 0, 0.716);
+    background-image: url('../images/lightbox/drake_lb.png');
+    background-repeat: no-repeat;
+    background-size: 100vh;
+    background-position: 40px bottom;
+    display: none; 
+    
+ }
+
+
+
+ 
+ 
+
+
+    
+ 
+
+
+ .lightbox_close {
+    color: white;
+    position: absolute;
+    top: 20px;
+    right: 5%;
+    font-size: 40px;
+    text-decoration: none;
+    font-weight: bolder;
+
+    transition: all .10s ease-in-out;
+   
+      
+ }
+
+ .lightbox_close:hover {
+    opacity: 0.5;
+    color: rgb(52, 17, 57);
+ }
+
+ .lightbox article {
+    width: 55%;
+    margin-left: 40%;
+    padding-top: 50px;
+    
+ }
+
+ .lb_text, .lb_heading { 
+    text-align: left;
+ }
+
+ .lb_text {
+    line-height: 26px;
+ }
+
+ .lb_heading { 
+  font-weight: bolder;
+ }
+
+ .lightbox:target {
+    display: block;
+
+ }
+
+
