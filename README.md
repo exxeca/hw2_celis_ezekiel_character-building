@@ -3,10 +3,10 @@ This repo is for my Homework 2 - Character Buid
 
 
 # Project Name:  
-### MIDTERM: TEAM-BASED GITHUB PROJECT
+### Homework #2 - Character Building
 
 
-Project Description: This project is showing what we learn on buiding a website using sprites, lightbox, flexbox, and few css.
+Project Description: This project is showing what we learn on building a website using sprites, lightbox, flexbox, and few css.
 
 ## Installation 
 
@@ -27,7 +27,7 @@ N/A
 
 ## History
 
-October 8, 2023
+November 8, 2023
 
 ## Credits 
 
